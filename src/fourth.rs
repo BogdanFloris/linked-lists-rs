@@ -29,7 +29,7 @@ impl<T> Node<T> {
 }
 
 impl<T> List<T> {
-    fn new() -> Self {
+    pub fn new() -> Self {
         List {
             head: None,
             tail: None,
